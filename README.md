@@ -3,6 +3,7 @@
 
 - [自然言語処理でちょっとなんかをする](#自然言語処理でちょっとなんかをする)
   - [Summary](#summary)
+  - [Build](#build)
 - [References](#references)
 
 ## Summary
@@ -16,6 +17,17 @@ jupyter notebook上でテキストマイニングっぽいことをする
   ![](img/wordcloud.png)
 
 ローカルで動かす場合の環境構築とかはちょっとたんまで……
+
+
+## Build
+Windowsでの環境構築は以下の２パターン。
+1. Windowsに直接Pythonや必要ツールをインストールする
+2. WindowsにWSL2を導入してDockerをインストール→DockerでPython用のコンテナを作ってVSCodeからリモートで接続する
+
+手っ取り早く試せるのは`1.`だけど、`2.`もこれはこれで便利だったりする。わかち書き関連のライブラリのインストールが楽&ホストが汚れないらしいので……。  
+Windowsから直接だとファイルパスとか文字コードの問題でエラーの対処が大変だった記憶があるので注意。
+
+
 
 # References
 - Google Colabの概要: [Colaboratory へようこそ - Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb?hl=ja)
